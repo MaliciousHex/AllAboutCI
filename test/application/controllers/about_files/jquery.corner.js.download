@@ -1,0 +1,160 @@
+	
+    <script src="http://e.babastudio.com/assets/js/select2.min.js"></script>
+    <!-- PACE LOAD BAR PLUGIN - This creates the subtle load bar effect at the top of the page. -->
+    <link href="http://e.babastudio.com/assets/css/plugins/pace/pace.css" rel="stylesheet">
+    <script src="http://e.babastudio.com/assets/js/plugins/pace/pace.js"></script>
+
+    <script src="http://e.babastudio.com/assets/js/plugins/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+
+    <script src="http://e.babastudio.com/assets/js/plugins/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+
+    <!-- Logout Notification jQuery -->
+    <script src="http://e.babastudio.com/assets/js/plugins/popupoverlay/logout.js"></script>
+    <!-- HISRC Retina Images -->
+    <script src="http://e.babastudio.com/assets/js/plugins/hisrc/hisrc.js"></script>
+
+    <!-- Morris Charts -->
+    <script src="http://e.babastudio.com/assets/js/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/morris/morris.js"></script>
+	<!-- PAGE LEVEL PLUGIN SCRIPTS -->
+    
+    <!-- HubSpot Messenger -->
+    <script src="http://e.babastudio.com/assets/js/plugins/messenger/messenger.min.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/messenger/messenger-theme-flat.js"></script>
+    <!-- Date Range Picker -->
+    <script src="http://e.babastudio.com/assets/js/plugins/daterangepicker/moment.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/daterangepicker/daterangepicker.js"></script>
+
+    
+    <link href="http://e.babastudio.com/assets/css/plugins/bootstrap-datepicker/datepicker3.css" rel="stylesheet">
+    <link href="http://e.babastudio.com/assets/css/plugins/bootstrap-timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+     <!-- DataTables -->
+    <script src="http://e.babastudio.com/assets/js/plugins/datatables/jquery.dataTables.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/datatables/datatables-bs3.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/summernote/summernote.min.js"></script>
+    <!-- THEME SCRIPTS -->
+    <script src="http://e.babastudio.com/assets/js/plugins/bootstrap-tokenfield/bootstrap-tokenfield.min.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/bootstrap-tokenfield/scrollspy.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/bootstrap-tokenfield/affix.js"></script>
+    <script src="http://e.babastudio.com/assets/js/plugins/bootstrap-tokenfield/typeahead.min.js"></script>
+    
+    <script src="http://e.babastudio.com/assets/js/jquery.bootstrap.wizard.min.js"></script>
+
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+           $('#example-table').dataTable();
+           $('#example2-table').dataTable();
+		   $('#example3-table').dataTable();
+		   $('#example4-table').dataTable();
+		   $('#example5-table').dataTable();
+           $('#table_latihan').dataTable();
+           
+               $('#sandbox-container input').datepicker({
+                autoclose: true,
+                todayHighlight: true
+            });
+
+
+        });
+
+        $(function() {
+            // tooltip demo
+            $('.tooltip-demo').tooltip({
+                selector: "[data-toggle=tooltip]",
+                container: "body"
+            })
+
+            $('.tooltip-test').tooltip()
+            $('.popover-test').popover()
+
+            // popover demo
+            $("[data-toggle=popover]").popover()
+
+        })
+
+
+
+    </script>
+
+    <title>Halaman Dashboard Staff | Neo Baba Learning System (NBLS)</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        
+        <!-- begin TOP NAVIGATION -->
+        <nav class="navbar-top" role="navigation">
+                <!-- begin BRAND HEADING -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <i class="fa fa-bars"></i> Menu
+                </button>
+                <div class="navbar-brand">
+                    <a href="http://e.babastudio.com/">
+                        <img height="20px" src="http://e.babastudio.com/uploads/branch/main_logo-copy.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <!-- end BRAND HEADING -->
+
+            <div class="nav-top">
+
+                <!-- begin LEFT SIDE WIDGETS -->
+                <ul class="nav navbar-left">
+                    <li class="tooltip-sidebar-toggle">
+                        <a href="#" id="sidebar-toggle" data-toggle="tooltip" data-placement="right" title="Sidebar Toggle">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    <!-- You may add more widgets here using <li> -->
+                </ul>
+                <!-- end LEFT SIDE WIDGETS -->
+
+                <!-- begin MESSAGES/ALERTS/TASKS/USER ACTIONS DROPDOWNS -->
+                <ul class="nav navbar-right">
+
+                   
+                    <!-- begin MESSAGES DROPDOWN -->
+                    <li class="dropdown">
+                        <a href="#" class="alerts-link dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-file"></i>
+                            <span class="number"><div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: total_itime</p>
+<p>Filename: include/top_navigation.php</p>
+<p>Line Number: 46</p>
+
+</div></span> <i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-scroll dropdown-alerts">
+
+                            <!-- Messages Dropdown Heading -->
+                            <li class="dropdown-header">
+                                <i class="fa fa-file"></i> <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: total_itime</p>
+<p>Filename: include/top_navigation.php</p>
+<p>Line Number: 52</p>
+
+</div> New I-Time
+                            </li>
+
+                            <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined variable: itime</p>
+<p>Filename: include/top_navigation.php</p>
+<p>Line Number: 55</p>
+
+</div>

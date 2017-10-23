@@ -1,0 +1,13 @@
+<?php 
+
+	class Index extends CI_Controller{
+
+		function __construct(){
+			parent::__construct();
+			$this->load->view("index",$data);
+
+		}
+
+	}
+
+ ?>
